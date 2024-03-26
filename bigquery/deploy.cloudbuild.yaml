@@ -45,3 +45,9 @@ substitutions:
 tags:
 - cloud-build-notifiers-bigquery
 - bigquery-${TAG_NAME}
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  build:
+    service_account: test-sa@red-cable-413915.iam.gserviceaccount.com
+    logs_bucket: my-custom-logs-bucket
