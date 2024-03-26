@@ -1,3 +1,0 @@
-{
-    "buildStatus": "{{.Build.Status}}"
-}
